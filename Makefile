@@ -1,4 +1,4 @@
-all:
+build:
 	Docker build . -t 'c_code'
 
 run:
