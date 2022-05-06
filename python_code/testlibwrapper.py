@@ -1,4 +1,4 @@
 import ctypes
 
-testlib = ctypes.CDLL('../c_code/testlib.so')
+testlib = ctypes.CDLL('../c_code/executables/testlib.so')
 testlib.myprint()
