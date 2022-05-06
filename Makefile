@@ -1,2 +1,2 @@
-make: all
- gcc -shared -Wl,-install_name,testlib.so -o testlib.so -fPIC testlib.c
+all:
+	Docker build . -t 'c_code'
