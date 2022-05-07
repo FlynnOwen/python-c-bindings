@@ -23,6 +23,13 @@ Install the python package (currently broken)
 pip install .
 ```
 
+Then to use this in python code:
+```
+from python_bindings import my_python_code
+
+my_python_code.myprint()
+```
+
 ## Structure:
 ```
 .
@@ -32,7 +39,7 @@ pip install .
 ├── c_code
 │   ├── executables
 │   └── my_c_code.c
-└── python_code
+└── python_bindings
     └── my_python_code.py
 ```
 - c_code contains the C source code to be compiled and read into Python
