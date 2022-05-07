@@ -18,7 +18,7 @@ Run the Docker image
 make run
 ```
 ### Pip
-Install the python package
+Install the python package (currently broken)
 ```
 pip install .
 ```
