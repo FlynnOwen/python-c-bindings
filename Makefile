@@ -1,5 +1,5 @@
 build:
-	Docker build . -t 'c_code'
+	Docker build . -t 'python_c_bindings'
 
 run:
-	Docker run c_code
+	Docker run python_c_bindings

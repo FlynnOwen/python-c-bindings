@@ -10,5 +10,5 @@ void myprint()
 
 void print_num(int num)
 {
-    printf("The number %d was entered%n", num);
+    printf("The number %d was entered\n", num);
 }
