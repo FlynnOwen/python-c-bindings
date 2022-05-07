@@ -26,9 +26,9 @@ make run
 ├── README.md
 ├── c_code
 │   ├── executables
-│   └── testlib.c
+│   └── my_c_code.c
 └── python_code
-    └── testlibwrapper.py
+    └── my_python_code.py
 ```
 - c_code contains the C source code to be compiled and read into Python
 - executables contains the compiled C code
