@@ -1,8 +1,10 @@
 # python-c-bindings
 A repository to test writing C bindings for Python
 
+ctypes is in the standard library, and looks to be a common way to use c functions within Python https://docs.python.org/3/library/ctypes.html
+
 ## Requirements:
-- [Docker installed](https://docs.docker.com/get-docker/)
+- [Docker](https://docs.docker.com/get-docker/)
 
 ## Usage:
 
@@ -31,5 +33,3 @@ make run
 - c_code contains the C source code to be compiled and read into Python
 - executables contains the compiled C code
 - python_code contains Python code that imports the compiled C objects
-
-- ctypes is in the standard library, and looks to be a common way to use c functions within Python https://docs.python.org/3/library/ctypes.html
