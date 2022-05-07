@@ -7,7 +7,7 @@ ctypes is in the standard library, and looks to be a common way to use c functio
 - [Docker](https://docs.docker.com/get-docker/)
 
 ## Usage:
-
+### Make
 Re-compile the C-code, and build the Docker image
 ```
 make build
@@ -16,6 +16,11 @@ make build
 Run the Docker image
 ```
 make run
+```
+### Pip
+Install the python package
+```
+pip install .
 ```
 
 ## Structure:
